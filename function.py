@@ -13,6 +13,7 @@
 
 
 def add(a,b):
+    '''take two numbers add them and print their result'''
     return a+b 
 def sub(a,b):
     return a-b
@@ -34,7 +35,11 @@ elif ask=="b":
 elif ask=="c":
     print("the product of numbers entered is ",into(n,n1))  
 else :
-    print("the quotient of numbers entered is ",by(n,n1))      
+    print("the quotient of numbers entered is ",by(n,n1)) 
+
+print(add.__doc__)   
+print(print.__doc__)  
     
+
 
     
