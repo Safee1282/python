@@ -21,7 +21,7 @@
 
 
 import random 
-options =["Rock" , "Paper" , "Scissor"]
+options =["rock" , "paper" , "scissor"]
 user_choice=input("Choose rock paper or scissors : ")
 computer_choice=random.choice(options)
 print("You choose : ",user_choice)
@@ -29,11 +29,11 @@ print("computer choose : ",computer_choice)
 
 if user_choice==computer_choice:
     print("Its a tie")
-elif user_choice=="Rock" and computer_choice=="Scissor":
+elif user_choice=="rock" and computer_choice=="scissor":
     print("You win")
-elif user_choice=="Paper" and computer_choice=="Rock":
+elif user_choice=="paper" and computer_choice=="rock":
     print("You win") 
-elif user_choice=="Scissor" and computer_choice=="Paper":
+elif user_choice=="scissor" and computer_choice=="paper":
     print("You win")     
 else :
     print("you lose")          
