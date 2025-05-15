@@ -1,0 +1,21 @@
+color1=["red","yellow","black","blue"]
+color2=["magenta","pink","white"]
+student=["safee",20,"18/09/2025",99.90,True,["math","english","hindi","urdu","science"]]
+student[2]="06/02/2013"
+print(student)
+print(len(student))
+print("my percentage is ",student[3])
+color=color1+color2
+print(color)
+student.append("Cricket")
+print(student)
+student.insert(3,"Football")
+print(student)
+student.pop()
+print(student)
+student.remove(True)
+print(student)
+color1.sort()
+print(color1)
+color1.sort(reverse=True)
+print(color1)
