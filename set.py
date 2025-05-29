@@ -14,6 +14,7 @@ print(integer)
 set1={"green","blue","red","purple"}
 set2={"magenta","violet","red","blue"}
 set3=set1.intersection(set2)
+set4=set1.union(set2)
 print(set1)
 print(set2)
 print(set3)
