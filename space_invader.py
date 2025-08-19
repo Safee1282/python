@@ -16,7 +16,7 @@ COLLISION_DISTANCE=27
 
 pygame.init()
 
-screen = pygame.display.set_mode(SCREEN_WIDTH, SCREEN_HEIGHT)
+screen = pygame.display.set_mode(SCREEN_WIDTH, SCREEN_HEIGHT) , SCREEN_WIDTH=800 , SCREEN_HEIGHT=500
 background = pygame.image.load('backgrounddddddd.jpeg')
 
 #caption and icon 
